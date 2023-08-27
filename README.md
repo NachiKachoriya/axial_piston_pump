@@ -30,13 +30,9 @@ Step_11: Generation of pistons.
 
 ![image](https://github.com/NachiKachoriya/axial_piston_pump/assets/136236455/205bcf5f-c3c4-4524-bea9-c25741f41358)
 
-![image](https://github.com/NachiKachoriya/axial_piston_pump/assets/136236455/d38fad49-91db-428d-a4d4-a2346ce68c5f)
-
 Step_12: Calculate the connecting rod height and build the rod
 
 ![image](https://github.com/NachiKachoriya/axial_piston_pump/assets/136236455/3957505a-5fca-4806-96c4-e3feed1d1aa9)
-
-![image](https://github.com/NachiKachoriya/axial_piston_pump/assets/136236455/1edddcf2-c019-4953-8313-caf8441bf162)
 
 Step_13: Then calculate sphere dimension and create slider as well with reference to rod height for translation
 
@@ -44,13 +40,7 @@ Step_13: Then calculate sphere dimension and create slider as well with referenc
 
 Step_14: emit the slider.
 
-![image](https://github.com/NachiKachoriya/axial_piston_pump/assets/136236455/2cdea586-19b3-41e4-bd16-3a4b43ee739a)
-
-![image](https://github.com/NachiKachoriya/axial_piston_pump/assets/136236455/26aa26e9-711e-4fb5-bbd6-5d4f53da8e8b)
-
 Step_15: Then take difference of cylinders to create hollow part in Barrel and emit it.
-
-![image](https://github.com/NachiKachoriya/axial_piston_pump/assets/136236455/724f6ed3-cca9-4b5f-a375-ace8a1596d9c)
 
 Formation of Swash plate and Shaft
 Step_16: Calculate Swash plate radius with the help of barrel radius and swashplate angle.
@@ -59,8 +49,6 @@ Step_17: Because the swash plate is fixed one need to give shaft way through, so
 ![image](https://github.com/NachiKachoriya/axial_piston_pump/assets/136236455/ff8fb413-cd58-4e14-a140-c3fea64be682)
 
 The swash plate will look something like this
-
-![image](https://github.com/NachiKachoriya/axial_piston_pump/assets/136236455/7a0da82f-4516-41ca-a838-19fc247f765a)
 
 Step_18: Create shaft which radius is 5th of barrel radius and height 3 times height
 
