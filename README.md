@@ -54,4 +54,18 @@ Step_18: Create shaft which radius is 5th of barrel radius and height 3 times he
 
 ![image](https://github.com/NachiKachoriya/axial_piston_pump/assets/136236455/f4c78d03-5bfa-4543-9f85-20c3eb593bb3)
 
-For further assembly formation you can simply refer the instructional tutorial file given.
+Step_19: For generation of valve plate define parameter from previous piston and barrel parameter
+
+![image](https://github.com/NachiKachoriya/axial_piston_pump/assets/136236455/fa5cdc64-2c68-4b73-b82d-bd4f2e2e0365)
+
+Step_20: Now to create an arc with inner and outer radius at angle from -55 to 55 degree, take 2 for loop for both arcs to create partial valve plate arc.
+
+Step_21: At the end of the arc, we put a cylinder on each side. Then we make “union” operation to create the Inlet port solid part’s arc, then we rotate it 180 degrees to create a solid outlet port’s arc.
+
+Step_22: Then take the difference of the whole assembly from the other cylinder disk, so it will generate the final valve plate.
+
+Step_23: For the Generation of the flange, we take reference of the valve plate and at the end, we put 2 pipes for the inlet and outlet. To generate a flange we took one cylinder and then removed valve plate from it
+
+Step_24: Then we generate support for the physical model with base plate, side plate (give swash plate support), pivot-hinge assembly (helps to change swash plate angle), handle, flange holder
+
+For further assembly formation, you can simply refer to the instructional tutorial file given.
